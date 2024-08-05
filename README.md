@@ -15,6 +15,7 @@ This project analyzes trip data to identify patterns and anomalies in taxi servi
 - Driver Training: Educate drivers on customer service and the benefits of encouraging card payments.
 - Customer Incentives: Implement programs to promote the use of card payments.
 
+## Tableau
 - For interactive visualization, you can visit <a href="https://public.tableau.com/views/NYCTLC_17227619678100/NYCTLC2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> this </a> site 
 
 ## Installation
