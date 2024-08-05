@@ -12,7 +12,7 @@ LibApp application was released in 2024 and developed by myself. Helping busines
 
 To get this project, you can clone it by running the following code:
 
-    git clone git@github.com:ilhamtaufieq17/LibApp-CP-1.git
+    git clone git@github.com:ilhamtaufieq17/NYC-TLC.git
 
     
 ## Project Organization
