@@ -1,32 +1,51 @@
 ﻿![Header](./data/Untitled_design-11.png)
 
-# About
-LibApp application was released in 2024 and developed by myself. Helping business people especially those engaged in the library is our motivation for developing this application. LibApp makes it easy to recapitulate inventory . LibApp offers four excellent features including:
+# Overview
+This project analyzes trip data to identify patterns and anomalies in taxi services within New York City. It aims to provide insights into driver behaviors, payment methods, and fare structures. The analysis focuses on key areas such as trip distances, payment preferences, and the effects of various surcharges.
 
-1. **Read Book**, LibApp displays the entire stock of items available in the database, and you will always get the latest updates from your database.
-2. **Add Book**, LibApp helps you register new items such as title, author, category or quantity.
-3. **Update Book**, LibApp helps you update existing items, such as title, author, category or quantity.
-4. **Delete Book**, LibApp provides high mobility to remove items that you do not need.
+## Features
+- Data Cleaning and Preparation: Handling data anomalies, including outliers, negative values, and zero trip distances.
+- Descriptive Analysis: Exploring the relationship between trip distance, fare amounts, payment types, and other variables.
+- Anomaly Detection: Identifying unusual patterns in the data, such as trips with zero distance or unexpected payment distributions.
+- Revenue Insights: Analyzing the impact of payment methods and surcharges on revenue.
+
+## Objectives
+- Enhance Card Payment Systems: Improve the efficiency and user-friendliness of card payment options in all vehicles.
+- Optimize Fare Structure: Review and adjust fare structures based on minimal impact factors, ensuring fairness and transparency.
+- Driver Training: Educate drivers on customer service and the benefits of encouraging card payments.
+- Customer Incentives: Implement programs to promote the use of card payments.
+
+## Tableau
+- For interactive visualization, you can visit <a href="https://public.tableau.com/views/NYCTLC_17227619678100/NYCTLC2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> this </a> site 
 
 ## Installation
 
 To get this project, you can clone it by running the following code:
 
-    git clone git@github.com:ilhamtaufieq17/LibApp-CP-1.git
+    git clone git@github.com:ilhamtaufieq17/NYC-TLC.git
 
     
 ## Project Organization
 
-The directory structure of FruitMarket project looks like this:
+The directory structure of this project looks like this:
 
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── data
+    │   ├── green_tripdata_2023-02.parquet    # Trip Data for Febuary 2023
+    │   ├── green_tripdata_2023-03.parquet    # Trip Data for March 2023
+    │   ├── NYC TLC Trip Record_Jan.csv       # Trip Data for January 2023
+    |   └── taxi_zone_lookup.csv              # Data for Location ID
     │
-    ├── docs               <- The document will consist of a detailed presentation or images.
+    ├── docs
+    │   └── New York City TLC Trip Record Data Dictionary.pdf              # PDF for Column Information
     │
-    ├── src                <- Source code for use in this project.
+    ├── src
+    │    └── Capstone 2 Final.ipynb            # Python Notebook for The Project
     │
-    └── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-                             generated with `pip freeze > requirements.txt`
+    ├── tableau
+    │   └── NYC TLC.twbx            # Workbook for Tableau
+    |
+    ├── requirements.txt           # List of dependencies required to run the project.
+    └── README.md                  # Project overview, features, objectives, and usage.
 
 ## Contribute
 
