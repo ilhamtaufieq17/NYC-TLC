@@ -26,29 +26,29 @@ To get this project, you can clone it by running the following code:
 
 The directory structure of this project looks like this:
 
-├── data
-│   ├── green_tripdata_2023-02.parquet    # Trip Data for Febuary 2023
-│   ├── green_tripdata_2023-03.parquet    # Trip Data for March 2023
-│   ├── NYC TLC Trip Record_Jan.csv       # Trip Data for January 2023
-|   └── taxi_zone_lookup.csv              # Data for Location ID
-│
-├── docs
-│   └── New York City TLC Trip Record Data Dictionary.pdf              # PDF for Column Information
-│
-├── src
-│   ├── data_preprocessing/    # Python scripts for data cleaning and preprocessing.
-│   ├── modeling/              # Scripts for machine learning models.
-│   └── analysis/              # Scripts for data analysis and visualization.
-│
-├── tableau
-│   └── Capstone 2 Final.ipynb            # Python Notebook for The Project
-│
-├── tableau
-│   ├── 
-│   └── NYC TLC.twbx            # Workbook for Tableau
-|
-├── requirements.txt           # List of dependencies required to run the project.
-└── README.md                  # Project overview, features, objectives, and usage.
+    ├── data
+    │   ├── green_tripdata_2023-02.parquet    # Trip Data for Febuary 2023
+    │   ├── green_tripdata_2023-03.parquet    # Trip Data for March 2023
+    │   ├── NYC TLC Trip Record_Jan.csv       # Trip Data for January 2023
+    |   └── taxi_zone_lookup.csv              # Data for Location ID
+    │
+    ├── docs
+    │   └── New York City TLC Trip Record Data Dictionary.pdf              # PDF for Column Information
+    │
+    ├── src
+    │   ├── data_preprocessing/    # Python scripts for data cleaning and preprocessing.
+    │   ├── modeling/              # Scripts for machine learning models.
+    │   └── analysis/              # Scripts for data analysis and visualization.
+    │
+    ├── tableau
+    │   └── Capstone 2 Final.ipynb            # Python Notebook for The Project
+    │
+    ├── tableau
+    │   ├── 
+    │   └── NYC TLC.twbx            # Workbook for Tableau
+    |
+    ├── requirements.txt           # List of dependencies required to run the project.
+    └── README.md                  # Project overview, features, objectives, and usage.
 
 ## Contribute
 
