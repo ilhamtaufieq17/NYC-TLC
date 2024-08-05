@@ -36,15 +36,9 @@ The directory structure of this project looks like this:
     │   └── New York City TLC Trip Record Data Dictionary.pdf              # PDF for Column Information
     │
     ├── src
-    │   ├── data_preprocessing/    # Python scripts for data cleaning and preprocessing.
-    │   ├── modeling/              # Scripts for machine learning models.
-    │   └── analysis/              # Scripts for data analysis and visualization.
+    │    └── Capstone 2 Final.ipynb            # Python Notebook for The Project
     │
     ├── tableau
-    │   └── Capstone 2 Final.ipynb            # Python Notebook for The Project
-    │
-    ├── tableau
-    │   ├── 
     │   └── NYC TLC.twbx            # Workbook for Tableau
     |
     ├── requirements.txt           # List of dependencies required to run the project.
